@@ -129,8 +129,9 @@
   <ItemGroup>
     <ClCompile Include="Character.cpp" />
     <ClCompile Include="Floor.cpp" />
+    <ClCompile Include="Goal.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="World.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Wall.cpp" />
@@ -138,7 +139,8 @@
   <ItemGroup>
     <ClInclude Include="Character.h" />
     <ClInclude Include="Floor.h" />
-    <ClInclude Include="Map.h" />
+    <ClInclude Include="Goal.h" />
+    <ClInclude Include="World.h" />
     <ClInclude Include="Monster.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Wall.h" />
