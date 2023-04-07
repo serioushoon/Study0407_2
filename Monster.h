@@ -1,11 +1,11 @@
 #pragma once
-#include "Character.h"
+#include "Actor.h"
 
-class FMonster : public FCharacter
+class AMonster : public AActor
 {
 public:
-	FMonster();
-	~FMonster();
+	AMonster();
+	virtual ~AMonster();
 
 };
 

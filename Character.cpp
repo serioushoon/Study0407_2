@@ -1,14 +1,14 @@
 #include "Character.h"
 
-FCharacter::FCharacter()
+ACharacter::ACharacter()
 {
 }
 
-FCharacter::~FCharacter()
+ACharacter::~ACharacter()
 {
 }
 
-void FCharacter::Move()
+void ACharacter::Move()
 {
 
 }

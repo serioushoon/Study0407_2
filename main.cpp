@@ -13,6 +13,15 @@ using namespace std;
 
 int main()
 {
+	
+	UWorld* World = new UWorld();
+
+	World->SpawnActor(new APlayer());
+	World->SpawnActor(new AGoal());
+	
+	delete World;
+	
+	
 	int Map[10][10] = {
 		{1,1,1,1,1,1,1,1,1,1},
 		{1,0,0,0,0,0,0,0,0,1},

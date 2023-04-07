@@ -1,9 +1,9 @@
 #pragma once
-class FCharacter
+class ACharacter
 {
 public:
-	FCharacter();
-	~FCharacter();
+	ACharacter();
+	virtual ~ACharacter();
 
 	void Move();
 
