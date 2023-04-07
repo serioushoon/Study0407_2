@@ -2,6 +2,8 @@
 class FMap
 {
 public:
+	FMap();
+	~FMap();
 
 
 };
